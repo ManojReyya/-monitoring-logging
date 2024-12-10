@@ -4,7 +4,7 @@ pipeline {
         stage('Clone') {
             steps {
                 // Clone the Git repository
-                git branch: 'master', url: 'https://github.com/<your-repo>'
+                git branch: 'master', url: 'https://github.com/ManojReyya/-monitoring-logging'
             }
         }
         stage('Build') {
